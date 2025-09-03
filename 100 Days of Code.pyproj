@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>671ae9d4-b13e-40ed-87a0-327608e98487</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Day3_Treasurehunting.py</StartupFile>
+    <StartupFile>Day-4\Day4_Rock_paper_scissor.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,11 +21,22 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Day1_Band_Name_Generator.py" />
-    <Compile Include="Day2_Tip_calculator.py" />
-    <Compile Include="Day3_Pizza_Deliveries.py" />
-    <Compile Include="Day3_Rollercoster.py" />
-    <Compile Include="Day3_Treasurehunting.py" />
+    <Compile Include="Day-1\Day1_Band_Name_Generator.py" />
+    <Compile Include="Day-2\Day2_Tip_calculator.py" />
+    <Compile Include="Day-3\Day3_Pizza_Deliveries.py" />
+    <Compile Include="Day-3\Day3_Rollercoster.py" />
+    <Compile Include="Day-3\Day3_Treasurehunting.py" />
+    <Compile Include="Day-4\Day4_Rock_paper_scissor.py" />
+    <Compile Include="Day-4\Day4_Who_pays_the Bill.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Day-4\" />
+    <Folder Include="Day-1\" />
+    <Folder Include="Day-2\" />
+    <Folder Include="Day-3\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Day-4\Day4_Heads_or_Tails.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
