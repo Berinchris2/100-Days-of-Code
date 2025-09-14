@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>671ae9d4-b13e-40ed-87a0-327608e98487</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Day-5\Day5_Password_Generator.py</StartupFile>
+    <StartupFile>Day-7\hanged_man.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -30,6 +30,9 @@
     <Compile Include="Day-4\Day4_Who_pays_the Bill.py" />
     <Compile Include="Day-5\Day5_Highscore.py" />
     <Compile Include="Day-5\Day5_Password_Generator.py" />
+    <Compile Include="Day-7\hanged_man.py" />
+    <Compile Include="Day-7\hangman_art.py" />
+    <Compile Include="Day-7\hangman_wordlist.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Day-4\" />
@@ -38,6 +41,7 @@
     <Folder Include="Day-3\" />
     <Folder Include="Day-5\" />
     <Folder Include="Day-6\" />
+    <Folder Include="Day-7\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Day-4\Day4_Heads_or_Tails.py" />
